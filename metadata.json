@@ -1,0 +1,8 @@
+{
+  "name": "eMVP-Lab 项目估值与投资分析决策平台",
+  "description": "基于上海宏思达eMVP-Lab融资商业计划书与kxschool.com项目概述的专业企业估值分析、分部估值沙盘与投资备忘录",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
