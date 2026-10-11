@@ -32,7 +32,7 @@ export const TopBar: React.FC<TopBarProps> = ({
             onClick={() => setActiveTab('summary')}
             className="text-lg font-bold tracking-tight text-slate-900 cursor-pointer"
           >
-            eMVP-Lab 估值决策平台
+            Gemini估值决策平台
           </span>
           <span className="hidden sm:inline text-xs text-slate-400 font-mono">
             kxschool.com
