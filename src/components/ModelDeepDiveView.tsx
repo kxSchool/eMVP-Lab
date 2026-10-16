@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ValuationSandboxParams, ValuationMethodologyResult } from '../types/valuation';
+import { ValuationSandboxParams, ValuationMethodologyResult } from '../data/valuation';
 import { BENCHMARK_VALUATION_MULTIPLES } from '../data/projectData';
 import { Layers, Database, Calculator, Compass, CheckCircle2 } from 'lucide-react';
 

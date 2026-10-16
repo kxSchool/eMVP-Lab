@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ValuationSandboxParams, ValuationMethodologyResult } from '../types/valuation';
+import { ValuationSandboxParams, ValuationMethodologyResult } from '../data/valuation';
 import { X, Copy, Check, Printer } from 'lucide-react';
 
 interface ReportExportModalProps {

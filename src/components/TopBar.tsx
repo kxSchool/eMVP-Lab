@@ -32,7 +32,7 @@ export const TopBar: React.FC<TopBarProps> = ({
             onClick={() => setActiveTab('summary')}
             className="text-lg font-bold tracking-tight text-slate-900 cursor-pointer"
           >
-            Gemini估值决策平台
+          Gemini估值决策平台
           </span>
           <span className="hidden sm:inline text-xs text-slate-400 font-mono">
             kxschool.com
@@ -40,7 +40,7 @@ export const TopBar: React.FC<TopBarProps> = ({
         </div>
 
         {/* Zone 2: 4-6 clean text navigation links */}
-        <nav className="hidden md:flex items-center gap-1 sm:gap-2">
+        <nav className="hidden lg:flex items-center gap-1 sm:gap-2">
           {navItems.map((item) => {
             const isActive = activeTab === item.id;
             return (
@@ -79,7 +79,7 @@ export const TopBar: React.FC<TopBarProps> = ({
       </div>
       
       {/* Mobile nav scrollbar */}
-      <div className="md:hidden flex overflow-x-auto px-4 py-2 bg-slate-50 border-t border-slate-200 gap-1 text-xs">
+      <div className="lg:hidden flex overflow-x-auto px-4 py-2 bg-slate-50 border-t border-slate-200 gap-1 text-xs">
         {navItems.map((item) => (
           <button
             key={item.id}

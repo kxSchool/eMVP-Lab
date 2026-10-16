@@ -1,4 +1,4 @@
-import { ValuationSandboxParams, ValuationMethodologyResult, SOTPBreakdownItem } from '../types/valuation';
+import { ValuationSandboxParams, ValuationMethodologyResult, SOTPBreakdownItem } from '../data/valuation';
 import { HISTORICAL_TRACKS } from '../data/projectData';
 
 export function calculateValuationResults(params: ValuationSandboxParams) {

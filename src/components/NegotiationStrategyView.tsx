@@ -1,5 +1,5 @@
 import React from 'react';
-import { ValuationSandboxParams } from '../types/valuation';
+import { ValuationSandboxParams } from '../data/valuation';
 import { Briefcase, UserCheck, Milestone, DollarSign, Target, CheckCircle2 } from 'lucide-react';
 
 interface NegotiationStrategyViewProps {

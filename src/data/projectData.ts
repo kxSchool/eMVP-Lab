@@ -1,4 +1,4 @@
-import { ProjectTrack, ValuationSandboxParams } from '../types/valuation';
+import { ProjectTrack, ValuationSandboxParams } from './valuation';
 
 export const COMPANY_PROFILE = {
   companyName: '上海宏思达信息技术有限公司',

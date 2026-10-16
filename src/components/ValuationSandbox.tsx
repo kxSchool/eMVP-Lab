@@ -1,5 +1,5 @@
 import React from 'react';
-import { ValuationSandboxParams, SOTPBreakdownItem } from '../types/valuation';
+import { ValuationSandboxParams, SOTPBreakdownItem } from '../data/valuation';
 import { Sliders, RotateCcw } from 'lucide-react';
 
 interface ValuationSandboxProps {

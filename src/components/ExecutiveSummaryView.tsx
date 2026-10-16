@@ -1,5 +1,5 @@
 import React from 'react';
-import { ValuationSandboxParams, ValuationMethodologyResult } from '../types/valuation';
+import { ValuationSandboxParams, ValuationMethodologyResult } from '../data/valuation';
 import { ArrowUpRight, ShieldCheck, TrendingUp, AlertTriangle, Cpu, Layers } from 'lucide-react';
 
 interface ExecutiveSummaryViewProps {
